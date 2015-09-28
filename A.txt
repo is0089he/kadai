@@ -1,0 +1,26 @@
+﻿■■■【A】時刻の比較の問題
+
+●問題
+二つの時刻が "HH:MM:SS" の形式で与えられた時、二つの時刻を比較して、
+比較結果を出力するコマンドラインで動作するプログラムを作成して下さい。
+
+(i)   1つ目の時刻のほうが早いとき:  The former is [hh] hr [mm] min [ss] sec ahead
+(ii)  1つ目の時刻のほうが遅いとき:  The former is [hh] hr [mm] min [ss] sec behind
+(iii) 1つ目と2つ目の時刻が同じとき: The former and the latter are the same
+
+二つの時刻に24時間以上の差があるケースは考慮しなくて良いとします。
+
+●解答条件
+- クラス名:TimeComparison
+- 与えられるデータ：time_data.tsv　（添付ファイル参照）
+- データのフォーマット:
+  HH:MM:SS (1つ目の時刻)
+  HH:MM:SS (2つ目の時刻)
+  
+●phpの場合の実行例
+ php TimeComparison.php
+
+ The former is 02 hr 27 min 32 sec behind
+
+
+以上で【A】の課題終了

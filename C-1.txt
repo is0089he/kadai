@@ -1,0 +1,32 @@
+■■■【C-1】探索の問題
+
+●問題
+任意のディレクトリへのパスが引数として与えられた時、ディレクトリ以下の全てのディレクトリとファイルを
+実行例のように出力するコマンドラインで動作するプログラムを作成して下さい。
+
+●解答条件
+クラス名:DirectoryViewer
+
+●phpの場合の実行例
+ php DirectoryViewer.php /root
+ 
+ root
+ ├dir1
+ │├dir3
+ ││├file2.txt
+ ││└file3.txt
+ │└dir4
+ │  ├file5.txt
+ │  └file6.txt
+ ├dir2
+ │├dir5
+ ││├file7.txt
+ ││└file8.txt
+ │└dir6
+ │  ├file9.txt
+ │  └file10.txt
+ └file1.txt
+
+
+以上で【C-1】の課題終了
+
